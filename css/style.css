@@ -1,0 +1,151 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #662211;
+  background: #99DDEE;
+}
+
+a {
+  color: #4FB69F;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.750em;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-size: 1.500em;
+  color: #B4C34F;
+}
+
+.btn {
+  color: #662211;
+  background: #4FB69F url('img/texture.png') repeat right top;
+  padding: 15px 30px;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #4CC4A7;
+}
+
+ul.nav {
+  list-style: none;
+  text-align: center;
+  margin: 50px 0 150px 0;
+}
+
+ul.nav li {
+  float: left;
+}
+
+ul.nav li a {
+  color: #FF1188;
+  font-size: 2em;
+  display: block;
+  margin: 0 10px;
+}
+
+.nav_div {
+  color: #660055;
+  margin: 0 10px;
+  font-size: 2em;
+}
+
+#above_nav {
+  text-align: center;
+  font-size: 3em;
+  margin: 50px 0 50px 0;
+  border: 6px solid #000000;
+}
+
+#below_nav {
+  margin: 0px 0 100px 0;
+  text-align: center;
+}
+
+#the_battle {
+  margin: 50px 0 0 0;
+  padding-bottom: 20px;
+  border-bottom: 5px solid #000000;
+}
+
+#python_pic {
+  margin: 0 20px 0 0;
+}
+
+#ruby_pic { 
+  margin: 0 0 0 20px;
+  }
+
+#versus {
+  vertical-align: center;
+  font-size: 3em;
+}
+
+#the_question {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#penguins {
+  text-align: right;
+}
+
+#penguins img {
+  margin-left: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+#top_page {
+  margin: 0 0 100px 0;
+}
+
+#bottom_page {
+  margin: 250px 0 0 0;
+}
+
+#intro {
+  margin: 50px 0 30px 0;
+}
+
+#intro p {
+  margin: 50px 0 125px 0;
+}
+
+img {
+  border: 4px solid #660000;
+}
+
+
+
+#the-sides img {
+  margin: 0 0 20px 0;
+}
+
+#featured-cat img {
+  float: left;
+  width: 405px;
+}
+
+#copyright {
+  border-top: 8px solid #2A0400;
+  padding: 10px 0px;
+  margin: 15px 0px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
