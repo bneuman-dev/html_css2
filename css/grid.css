@@ -39,7 +39,8 @@
 .omega{margin-right:0px;}
 
 .container{
-	width: 1000px; 
+	width: 90%%;
+	max-width: 1000px; 
 	margin: auto;
 }
 
