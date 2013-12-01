@@ -32,21 +32,24 @@ img {
   border: 6px solid #000000; /*6 px*/
 }
 
-ul#nav {
-  border: 2px solid #000000;
+
+#nav ul {
+
   list-style: none;
+  border: 2px solid #000000;
   padding: 0 5% 0 5%;
-  /*text-align: center;*/
   font-size: 2em;  /*32px*/
+  /*text-align: center;*/
+
   margin: 5% 0 15% 0; /*50px x 150px*/
 }
 
-ul#nav li {
+#nav ul li {
   float: left;
   margin: 0 1%;
 }
 
-ul#nav li a {
+#nav ul li a {
   color: #FF1188;
   display: block;
 }
@@ -58,6 +61,15 @@ ul#nav li a {
 /*end class grid_12*/
 
 /*class grid_8*/
+#the_battle {
+  margin: 7.5758% 0 0 0; /*50 px*/ 
+  padding-bottom: 3.03%; /*20 px*/
+  border-bottom: 5px solid #000000;
+}
+
+#the_battle img {
+  max-width: 45%;
+}
 
 #below_nav .btn {
   color: #662211;
@@ -71,15 +83,7 @@ ul#nav li a {
   background-color: #4CC4A7;
 }
 
-#the_battle {
-  margin: 7.5758% 0 0 0; /*50 px*/ 
-  padding-bottom: 3.03%; /*20 px*/
-  border-bottom: 5px solid #000000;
-}
 
-#the_battle img {
-  max-width: 45%;
-}
 
 p#below_nav {
   margin: 0 0 15.1515% 0; /*100 px*/
@@ -158,13 +162,117 @@ p#below_nav {
 }
 
 
+@media screen and (max-width:480px) {
+  .grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+  width: 100%;
+}
+
+above_nav {
+  border:0px;
+  font-size: 2em;
+}
 
 
+#nav ul { 
+border: 0px;
+margin: 10% 2%;
+display: block;
+text-align:center;
+
+}
+
+#nav ul li { 
+width:100%;
+margin: 3% 0;
+}
+
+.nav_div { 
+  display:none;
+  }
+
+#the_battle {
+  margin: 15% 0;
+  padding: 0 0;
+  text-align:center;
+  border-top: .25em solid #000000;
+  border-bottom: .25em solid #000000;
+}
+
+p#below_nav {
+  margin: 0 0;
+  text-align:center;
+}
+
+#below_nav .btn {
+  display:block;
+  width: 100%;
+  margin: 10% 5%;
+}
 
 
+#python_pic, #ruby_pic {
+  margin: 10% 10%; /*? px*/
+}
+
+#versus {
+  display:block;
+  text-align:center;
+}
+
+#the_question {
+  text-align:left;
+  margin: 7% 3%;
+}
+
+#penguins {
+  display:none;
+}
 
 
+#featured-cat, #the-sides, #ipsum, #right-bottom {
+  margin: 10% 3%;
+}
 
+#featured-cat {
+  text-align:center;
+}
 
+#featured-cat p {
+  text-align:left;
+}
 
+#featured-cat img {
+  float:none;
+  margin-top: 5%;
+}
 
+#the-sides p {
+  float:left;
+}
+
+#the-sides h2 {
+  text-align:center;
+}
+
+#the-sides img {
+  display:none;
+}
+
+#ipsum h2, #slogan h2 {
+  text-align: center;
+}
+
+#facebook img {
+  margin: 0 10%;
+}
