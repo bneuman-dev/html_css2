@@ -31,34 +31,33 @@ h2 {
   background-color: #4CC4A7;
 }
 
-ul.nav {
-  list-style: none;
-  text-align: center;
-  margin: 50px 0 150px 0;
-}
-
-ul.nav li {
-  float: left;
-}
-
-ul.nav li a {
-  color: #FF1188;
-  font-size: 2em;
-  display: block;
-  margin: 0 10px;
-}
-
-.nav_div {
-  color: #660055;
-  margin: 0 10px;
-  font-size: 2em;
-}
 
 #above_nav {
   text-align: center;
   font-size: 3em;
-  margin: 50px 0 50px 0;
-  border: 6px solid #000000;
+  margin: 5% 0 5% 0; /*50 px*/
+  border: 6px solid #000000; /*6 px*/
+}
+
+ul.nav {
+  list-style: none;
+  text-align: center;
+  font-size: 2em;  /*32px*/
+  margin: 5% 0 15% 0; /*50px x 150px*/
+}
+
+ul.nav li {
+  float: left;
+  margin: 0 1%;
+}
+
+ul.nav li a {
+  color: #FF1188;
+  display: block;
+}
+
+.nav_div {
+  color: #660055;
 }
 
 #below_nav {
