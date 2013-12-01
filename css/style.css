@@ -23,9 +23,6 @@ img {
   border: 4px solid #660000;
 }
 
-
-
-
 /*class grid_12*/
 
 #above_nav {
@@ -35,7 +32,7 @@ img {
   border: 6px solid #000000; /*6 px*/
 }
 
-ul.nav {
+ul#nav {
   border: 2px solid #000000;
   list-style: none;
   padding: 0 5% 0 5%;
@@ -44,12 +41,12 @@ ul.nav {
   margin: 5% 0 15% 0; /*50px x 150px*/
 }
 
-ul.nav li {
+ul#nav li {
   float: left;
   margin: 0 1%;
 }
 
-ul.nav li a {
+ul#nav li a {
   color: #FF1188;
   display: block;
 }
@@ -135,10 +132,22 @@ p#below_nav {
 
 
 /*the-sides is class grid_5 omega*/
+#the-sides {
+  margin: 0 0 0 5%;
+}
+
 #the-sides img {
   margin: 0 0 5% 0; /*20 px*/
 }
 
+
+/*#ipsum grid_7*/
+
+/*right-bottom includes slogan, contact, facebook; grid 5_omega*/
+
+#right-bottom {
+  /*margin: 0 0 0 5%;*/
+}
 
 /*copyright class grid 12*/
 #copyright {
