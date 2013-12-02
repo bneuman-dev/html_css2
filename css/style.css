@@ -33,7 +33,7 @@ img {
 }
 
 
-#nav ul {
+ul#nav {
 
   list-style: none;
   border: 2px solid #000000;
@@ -44,12 +44,12 @@ img {
   margin: 5% 0 15% 0; /*50px x 150px*/
 }
 
-#nav ul li {
+ul#nav li {
   float: left;
   margin: 0 1%;
 }
 
-#nav ul li a {
+ul#nav li a {
   color: #FF1188;
   display: block;
 }
@@ -185,7 +185,7 @@ p#below_nav {
 }
 
 
-#nav ul { 
+ul#nav { 
 border: 0px;
 margin: 10% 2%;
 display: block;
@@ -193,7 +193,7 @@ text-align:center;
 
 }
 
-#nav ul li { 
+ul#nav li { 
 width:100%;
 margin: 3% 0;
 }
@@ -286,24 +286,24 @@ p#below_nav {
 @media screen and (max-width:1000px) {
 
 
-#nav ul { 
-margin: 10% 2%;
+ul#nav { 
+margin: 10% 5%;
 display: block;
-padding: 0 0s;
+padding: 0 5%;
 
 }
 
-#nav ul li { 
+ul#nav li { 
 text-align: center;
 }
 
-#nav ul li.last {
+ul#nav li.last {
   display: block;
   text-align:center;
   width: 100%;
 }
 
-#nav ul li#last_div {
+ul#nav li#last_div {
   display: none;
 }
 

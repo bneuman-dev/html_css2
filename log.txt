@@ -1,0 +1,65 @@
+commit 92d71a8d27001d66b874d924e1a034b2e76dd52a
+Author: mctyn64 <bneuman@Bens-MacBook-Air.local>
+Date:   Sun Dec 1 17:42:38 2013 -0600
+
+    added meta viewport
+
+commit 218acd5e46d945b133d3f7b7627fcf689e8862ab
+Author: mctyn64 <bneuman@Bens-MacBook-Air.local>
+Date:   Sun Dec 1 17:01:07 2013 -0600
+
+    Changes to padding to make ul stay on one line in full display
+
+commit 8149f9fcebb2eccfd6d12970b2cfd784c0df9306
+Author: mctyn64 <bneuman@Bens-MacBook-Air.local>
+Date:   Sun Dec 1 16:53:36 2013 -0600
+
+    Medium displays
+
+commit b08246080e4faf8b30f7e77b048c20fe3bd402b7
+Author: mctyn64 <bneuman@Bens-MacBook-Air.local>
+Date:   Sun Dec 1 16:18:10 2013 -0600
+
+    iPhone displays
+
+commit 3140cac46573d9afe3e89ad6f10ed8c655139074
+Author: mctyn64 <bneuman@Bens-MacBook-Air.local>
+Date:   Sun Dec 1 15:09:07 2013 -0600
+
+    CSS reorganization in prep for responsiveness
+
+commit 6f91e7d66d5ba855acdab061c5cea69db9326919
+Author: mctyn64 <bneuman@Bens-MacBook-Air.local>
+Date:   Sun Dec 1 13:22:15 2013 -0600
+
+    Revised grid.css .container to have width: 90% max-width: 1000px. My site was not scaling; now it is. I forgot the first Treehouse lesson. In other news: duh, stupid.
+
+commit 196bb1e096194cbbaefb1cdc5775051db285e3d3
+Author: mctyn64 <bneuman@Bens-MacBook-Air.local>
+Date:   Sun Dec 1 13:15:33 2013 -0600
+
+    Finished style.css revision; cleaned up and commented
+
+commit c589908e7865f6ded20d87dcafb68bc5aadc1700
+Author: mctyn64 <bneuman@Bens-MacBook-Air.local>
+Date:   Sun Dec 1 12:43:17 2013 -0600
+
+    Revising style.css fofr relative values (halfway through). Better understanding how to use margin: with my unordered list elements.
+
+commit 2745fceb7ce4365c8214cf537125c0cb933c92fa
+Author: mctyn64 <bneuman@Bens-MacBook-Air.local>
+Date:   Sun Dec 1 12:26:14 2013 -0600
+
+    Changed grid.css from absolute to relative widths
+
+commit ffe55e7b040a2eba1eb922111b5cc7a43191b133
+Author: mctyn64 <bneuman@Bens-MacBook-Air.local>
+Date:   Sun Dec 1 12:23:21 2013 -0600
+
+    Removed unused images
+
+commit 8061534d624f9520c5bb85e4441da7b3d05c53d3
+Author: mctyn64 <bneuman@Bens-MacBook-Air.local>
+Date:   Sun Dec 1 12:18:41 2013 -0600
+
+    Original website
